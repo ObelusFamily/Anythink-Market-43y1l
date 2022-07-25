@@ -4,6 +4,26 @@ To start the app use Docker. It will start both frontend and backend, including 
 
 Please find more info about each part in the relevant Readme file ([frontend](frontend/readme.md) and [backend](backend/README.md)).
 
+## Setup
+
+You need to make sure [Docker is installed](https://docs.docker.com/get-docker/).
+
+To validated, run this on your terminal:
+
+```
+docker -v
+```
+
+Clone this repo and enter project main directory
+
+To validate back-end is find, run
+
+```
+docker-compose up
+```
+
+And open http://localhost:3000/api/ping, you should get a message saying everything is OK.
+
 ## Development
 
 When implementing a new feature or fixing a bug, please create a new pull request against `main` from a feature/bug branch and add `@vanessa-cooper` as reviewer.
